@@ -1,0 +1,8 @@
+--- a/51-local.conf	2022-05-24 23:15:22.342235300 +0900
++++ b/51-local.conf	2022-05-24 23:15:02.492235300 +0900
+@@ -8,4 +8,5 @@
+   <description>Load local customization file</description>
+ 	<!-- Load local system customization file -->
+ 	<include ignore_missing="yes">local.conf</include>
++	<dir>/mnt/c/Windows/Fonts</dir>
+ </fontconfig>
